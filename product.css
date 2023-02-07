@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar Section */
+#navbar {
+    display: grid;
+    grid-template-columns: 300px 660px auto;
+}
+
+/* Navbar Logo And image Section */
+#navbar #logo {
+    margin: 15px auto;
+}
+
+#navbar #logo img {
+    margin: 0px 20px;
+    height: 56px;
+    width: 118px;
+}
+
+/* Navbar Listing Items And Search Box */
+#navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 4px 25px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    color: #666161;
+}
+
+#navbar ul li a:hover {
+    /* background: white; */
+    color: #5755ff;
+}
+
+#navbar #search {
+    display: block;
+    margin: 27px auto;
+    padding: 4px 4px;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 205px;
+    height: 33px;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+
+/* Home Section */
+#home {
+    display: grid;
+    /* grid-template-rows: 320px 271px; */
+    grid-template-columns: 40vw auto;
+    height: 340px;
+    background: #8dbce5;
+}
+
+#home #home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home #home-img img {
+    height: 230px;
+}
+
+#home #home-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 67px;
+}
+
+#home #home-details h1 {
+    padding: 8px;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#home #home-details p {
+    padding: 0px 10px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+#home #home-details .btn1 {
+    display: block;
+    width: 105px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #824dd7;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#home #home-details .btn1:hover {
+    color: black;
+    background: whitesmoke;
+    transition: all 0.7s ease-in-out;
+}
+
+/* Services Section */
+#services {
+    display: flex;
+    height: 171px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#services .services-box {
+    display: grid;
+    grid-template-columns: 80px auto;
+    height: 108px;
+    width: 346px;
+
+}
+
+#services .services-box img {
+    height: 30px;
+    display: block;
+    margin: 7px auto;
+
+}
+
+#services .services-box .h-secondary {
+    font-family: 'Baloo 2', cursive;
+    margin: 5px;
+}
+
+#services .services-box p {
+    margin: 2px 5px;
+}
